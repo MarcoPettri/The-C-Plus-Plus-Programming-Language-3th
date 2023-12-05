@@ -56,7 +56,7 @@ namespace Global {
 			*beg = *rbeg;
 			*rbeg = temp;
 
-			++beg, ++rbeg;
+			++beg, --rbeg;
 		}
 		return b;
 	}
